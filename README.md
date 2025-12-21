@@ -1,53 +1,38 @@
 # goit-markup-hw-06
 
-• Створи репозиторій goit-markup-hw-06.
+**Homework #6:** Adaptive layout page.
+Set up GitHub Pages and add a link to the live page in the **About** section of the repository.
 
-• Склонуй створений репозиторій і скопіюй в нього файли попередньої роботи.
+## A — Project
 
-• Виконай верстку адаптивної версії всіх елементів сторінки домашнього завдання #6.
+- **A1** — On any device with width from 320px, no horizontal scrollbar appears.
+- **A2** — Code formatted using **Prettier**.
+- **A3** — All images and text content are taken from the design layout.
+- **A4** — [modern-normalize](https://cdnjs.com/libraries/modern-normalize) is included.
+- **A5** — Code follows the [Code Guide](https://codeguide.co/) recommendations.
 
-• Налаштуй GitHub Pages і додай посилання на живу сторінку в секцію About GitHub-репозиторія.
+## B — Responsiveness
 
-На що буде звертати увагу ментор :
+- **B1** — All pages have a viewport meta tag in the `<head>` block.
+- **B2** — Layout is designed for three breakpoints: 320px, 768px, and 1158px.
+- **B3** — All raster background and content images are responsive and support x1 and x2 screen densities.
+- **B4** — For responsive background images, the media function min-resolution is used.
+- **B5** — Styles use Mobile First approach and media queries with min-width.
+- **B6** — Styles needed only in a specific range are wrapped in media queries `(min-width: ) and (max-width: )` or `(max-width: )`.
+- **B7** — Media queries do not contain unnecessary duplication of styles.
 
-Проєкт
+## C — Mobile menu
 
-«A1» При перегляді сторінки на будь-якому пристрої шириною від 320px, не з'являється горизонтальна смуга прокручування.
+- **C1** — Markup of all mobile menu elements is completed.
+- **C2** — Styling of all mobile menu elements is completed.
+- **C3** — Menu width matches the design.
+- **C4** — Menu height covers the full viewport.
+- **C5** — Initially, the menu is hidden.
+- **C6** — If the menu element has the `is-open` class, it appears.
 
-«A2» Вихідний код відформатований за допомогою Prettier.
+## Resources
 
-«A3» Всі зображення та текстовий контент взяті з макета.
+- [modern-normalize](https://cdnjs.com/libraries/modern-normalize) — CSS normalization
+- [Code Guide](https://codeguide.co/) — coding style guide
 
-«A4» Підключений нормалізатор стилів modern-normalize
-
-«A5» Код написаний з дотриманням настанови.
-
-Респонсивність
-
-«B1» У всіх сторінок в блоці <head> є метатег viewport.
-
-«B2» Верстка виконана щодо трьох точок перелому: 320px, 768px і 1158px.
-
-«B3» Всі фонові і контентні растрові зображення — респонсивні і підтримують екрани щільністю x1 и x2.
-
-«B4» Для респонсивних фонових зображень використані медіа-функція min-resolution.
-
-«B5» При написанні стилів використаний Mobile First підхід і медіа-функція min-width.
-
-«B6» Стилі, необхідні тільки у певному проміжку, закриті в медіа-запити (min-width: ) and (max-width: ) або тільки (max-width: ).
-
-«B7» В медіа-запитах відсутнє зайве дублювання стилів.
-
-Мобільне меню
-
-«C1» Виконана розмітка всіх елементів мобільного меню.
-
-«C2» Виконано оформлення всіх елементів мобільного меню.
-
-«C3» Ширина меню відповідає макету.
-
-«C4» За висотою меню займає весь в'юпорт.
-
-«C5» Спочатку меню приховано.
-
-«C6» Якщо додати на елемент меню клас is-open, воно з'являється.
+**Live page:** [GitHub Pages](https://akinaru72.github.io/goit-markup-hw-06/)
